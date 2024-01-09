@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  .contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #08449e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:  rgb(189, 123, 25);;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #datosClima p  {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+    
+  }
+  #datosClimaCiudad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+  }
+  #datosClimaCiudad img {
+    width: 30%; 
+    max-width: 300px; 
+    margin: 10px 0; 
+  }
+
+  #datosA5dias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 10px; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  a:hover {
+    color: rgb(189, 123, 25);
+  }
