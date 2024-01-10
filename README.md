@@ -1,3 +1,3 @@
 App básica de clima. Consume los datos de la API Meteosource.
 
-www.basicclima.netlify.app
+https://basicclima.netlify.app
